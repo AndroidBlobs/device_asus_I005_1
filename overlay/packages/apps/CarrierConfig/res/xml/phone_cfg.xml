@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carrier_config_list>
+    <carrier_config>
+        <string name="config_ims_package_override_string">com.google.android.ims</string>
+        <string name="config_ims_rcs_package_override_string">com.google.android.ims</string>
+        <int-array name="lte_rsrp_thresholds_int_array" num="5">
+            <item value="-134" />
+            <item value="-125" />
+            <item value="-115" />
+            <item value="-109" />
+            <item value="-102" />
+        </int-array>
+        <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true" />
+        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
+            <item value="-114" />
+            <item value="-106" />
+            <item value="-101" />
+            <item value="-96" />
+            <item value="-89" />
+        </int-array>
+        <string name="wcdma_default_signal_strength_measurement_string">rscp</string>
+        <int-array name="gsm_rssi_thresholds_int_array" num="5">
+            <item value="-114" />
+            <item value="-106" />
+            <item value="-101" />
+            <item value="-96" />
+            <item value="-90" />
+        </int-array>
+        <int-array name="5g_nr_ssrsrp_thresholds_int_array" num="5">
+            <item value="-134" />
+            <item value="-124" />
+            <item value="-113" />
+            <item value="-109" />
+            <item value="-101" />
+        </int-array>
+        <boolean name="signal_strength_nr_nsa_use_lte_as_primary_bool" value="false" />
+        <int name="parameters_used_for_lte_signal_bar_int" value="1" />
+        <int name="parameters_use_for_5g_nr_signal_bar_int" value="1" />
+    </carrier_config>
+    <carrier_config country="BR">
+        <string-array name="unloggable_numbers_string_array" num="2">
+            <item value="180" />
+            <item value="181" />
+        </string-array>
+    </carrier_config>
+    <carrier_config cid="529">
+        <string name="default_vm_number_string">*100</string>
+    </carrier_config>
+    <carrier_config cid="1383">
+        <string name="default_vm_number_string">*100</string>
+    </carrier_config>
+    <carrier_config cid="1389">
+        <string name="default_vm_number_string">*100</string>
+    </carrier_config>
+    <carrier_config cid="1385">
+        <string name="default_vm_number_string">*100</string>
+    </carrier_config>
+    <carrier_config cid="530">
+        <string name="default_vm_number_string">*100</string>
+    </carrier_config>
+    <carrier_config mcc="460">
+        <boolean name="disable_voice_barring_notification_bool" value="true" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
+        <boolean name="additional_settings_caller_id_visibility_bool" value="false" />
+        <boolean name="prevent_clir_activation_and_deactivation_code_bool" value="true" />
+    </carrier_config>
+    <carrier_config cid="2237">
+        <boolean name="world_phone_bool" value="false" />
+        <boolean name="support_swap_after_merge_bool" value="false" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="208" mnc="20">
+        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="454">
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="454" mnc="00">
+        <string-array name="read_only_apn_types_string_array" num="1">
+            <item value="ims" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="454" mnc="02">
+        <string-array name="read_only_apn_types_string_array" num="1">
+            <item value="ims" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="454" mnc="16">
+        <string-array name="read_only_apn_types_string_array" num="1">
+            <item value="ims" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="454" mnc="18">
+        <string-array name="read_only_apn_types_string_array" num="1">
+            <item value="ims" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="454" mnc="19">
+        <string-array name="read_only_apn_types_string_array" num="1">
+            <item value="ims" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="454" mnc="00">
+        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="454" mnc="16">
+        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="454" mnc="19">
+        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="454" mnc="20">
+        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="454" mnc="29">
+        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="1575">
+        <int-array name="lte_rsrp_thresholds_int_array" num="5">
+            <item value="-126" />
+            <item value="-112" />
+            <item value="-106" />
+            <item value="-100" />
+            <item value="-95" />
+        </int-array>
+        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
+            <item value="-115" />
+            <item value="-107" />
+            <item value="-99" />
+            <item value="-91" />
+            <item value="-85" />
+        </int-array>
+        <boolean name="always_play_remote_hold_tone_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="222" mnc="10">
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <int name="hide_ims_icon_mask_int" value="1" />
+    </carrier_config>
+    <carrier_config cid="1573">
+        <int-array name="lte_rsrp_thresholds_int_array" num="5">
+            <item value="-126" />
+            <item value="-112" />
+            <item value="-106" />
+            <item value="-100" />
+            <item value="-95" />
+        </int-array>
+        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
+            <item value="-115" />
+            <item value="-107" />
+            <item value="-99" />
+            <item value="-91" />
+            <item value="-85" />
+        </int-array>
+        <boolean name="always_play_remote_hold_tone_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="440">
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
+        <boolean name="signal_strength_nr_nsa_use_lte_as_primary_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="441">
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
+        <boolean name="signal_strength_nr_nsa_use_lte_as_primary_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="440" mnc="50">
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <string-array name="apn_hide_rule_strings_array" num="2">
+            <item value="type" />
+            <item value="emergency" />
+        </string-array>
+        <boolean name="gps.persist_lpp_mode_bool" value="true" />
+        <string name="gps.lpp_profile">1</string>
+    </carrier_config>
+    <carrier_config mcc="440" mnc="51">
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <string-array name="apn_hide_rule_strings_array" num="2">
+            <item value="type" />
+            <item value="emergency" />
+        </string-array>
+        <boolean name="gps.persist_lpp_mode_bool" value="true" />
+        <string name="gps.lpp_profile">1</string>
+        <int-array name="disconnect_cause_play_busytone_int_array" num="3">
+            <item value="4" />
+            <item value="340" />
+            <item value="370" />
+        </int-array>
+    </carrier_config>
+    <carrier_config mcc="440" mnc="11">
+        <boolean name="hide_ims_apn_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="238" mnc="20">
+        <boolean name="hide_ims_apn_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="240" mnc="01">
+        <boolean name="hide_ims_apn_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="242" mnc="02">
+        <boolean name="hide_ims_apn_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="242" mnc="05">
+        <boolean name="hide_ims_apn_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="244" mnc="91">
+        <boolean name="hide_ims_apn_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="246" mnc="01">
+        <boolean name="hide_ims_apn_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="248" mnc="01">
+        <boolean name="hide_ims_apn_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="510" mnc="10">
+        <boolean name="additional_settings_caller_id_visibility_bool" value="false" />
+        <boolean name="prevent_clir_activation_and_deactivation_code_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="240" mnc="07">
+        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="293" mnc="41">
+        <int name="maxMessageSize" value="3145728" />
+    </carrier_config>
+    <carrier_config cid="1736">
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="466">
+        <boolean name="disable_voice_barring_notification_bool" value="true" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="466" mnc="05">
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <string name="vowifi_name_override">GT WiFi</string>
+    </carrier_config>
+    <carrier_config gid1="0A" mcc="525" mnc="05">
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <string name="vowifi_name_override">GT WiFi</string>
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="234" mnc="20">
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="234" mnc="94">
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+        <boolean name="editable_wfc_mode_bool" value="false" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="false" />
+    </carrier_config>
+    <carrier_config cid="1187">
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <string-array name="read_only_apn_types_string_array" num="1">
+            <item value="dun" />
+        </string-array>
+        <string-array name="apn_hide_rule_strings_array" num="2">
+            <item value="type" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="170">
+        <boolean name="gps.persist_lpp_mode_bool" value="true" />
+        <string name="gps.lpp_profile">2</string>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="380">
+        <boolean name="gps.persist_lpp_mode_bool" value="true" />
+        <string name="gps.lpp_profile">2</string>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="090">
+        <boolean name="gps.persist_lpp_mode_bool" value="true" />
+        <string name="gps.lpp_profile">2</string>
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <string-array name="read_only_apn_types_string_array" num="1">
+            <item value="dun" />
+        </string-array>
+        <string-array name="apn_hide_rule_strings_array" num="2">
+            <item value="type" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="280">
+        <boolean name="gps.persist_lpp_mode_bool" value="true" />
+        <string name="gps.lpp_profile">2</string>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="070">
+        <boolean name="gps.persist_lpp_mode_bool" value="true" />
+        <string name="gps.lpp_profile">2</string>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="410">
+        <boolean name="gps.persist_lpp_mode_bool" value="true" />
+        <string name="gps.lpp_profile">2</string>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="980">
+        <boolean name="gps.persist_lpp_mode_bool" value="true" />
+        <string name="gps.lpp_profile">2</string>
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <string-array name="read_only_apn_types_string_array" num="1">
+            <item value="dun" />
+        </string-array>
+        <string-array name="apn_hide_rule_strings_array" num="2">
+            <item value="type" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="560">
+        <boolean name="gps.persist_lpp_mode_bool" value="true" />
+        <string name="gps.lpp_profile">2</string>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="030">
+        <boolean name="gps.persist_lpp_mode_bool" value="true" />
+        <string name="gps.lpp_profile">2</string>
+    </carrier_config>
+    <carrier_config mcc="311" mnc="180">
+        <boolean name="gps.persist_lpp_mode_bool" value="true" />
+        <string name="gps.lpp_profile">2</string>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="150">
+        <boolean name="gps.persist_lpp_mode_bool" value="true" />
+        <string name="gps.lpp_profile">2</string>
+        <boolean name="hide_ims_apn_bool" value="true" />
+        <string-array name="read_only_apn_types_string_array" num="1">
+            <item value="dun" />
+        </string-array>
+        <string-array name="apn_hide_rule_strings_array" num="2">
+            <item value="type" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="680">
+        <boolean name="gps.persist_lpp_mode_bool" value="true" />
+        <string name="gps.lpp_profile">2</string>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,4 @@
+require version-baseband=4.0-01552.2-LC_ALL_PACK-1.362021.17.369425.8
+require version-modem=2021-03-0416:01:11
+require version-trustzone=TZ.XF.5.11-358013-1
+require version-vendor=1615388069
